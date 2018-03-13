@@ -64,6 +64,7 @@ textarea {
 	padding: 5px;
 	text-align: center;
 	background: #00222b;
+	display: none;
 }
 
 #box2 {
