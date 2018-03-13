@@ -1,0 +1,8 @@
+version: '2'
+services:
+  haste:
+    build: ./
+    volumes:
+    - ./volumes/haste:/hastebin/data
+    ports:
+    - 7777:7777/tcp
