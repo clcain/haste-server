@@ -6,3 +6,4 @@ services:
     - ./volumes/haste:/hastebin/data
     ports:
     - 7777:7777/tcp
+    restart: always
